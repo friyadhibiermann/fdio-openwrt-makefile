@@ -1,4 +1,5 @@
-#FDIO-openwrt
+# FDIO-openwrt
+<strong>how to install</strong>
 <ul>
 <li>arm_cortex-a7_vfpv4</li>
 <pre>

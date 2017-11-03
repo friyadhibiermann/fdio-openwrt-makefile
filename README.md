@@ -40,3 +40,5 @@ $nano /etc/rc.local
 fdi_gpio startup # add this command before exit0 line
 exit 0
 </pre>
+<strong>download app fdi-o on playstore</strong>
+<img src="fdio.PNG"></img>

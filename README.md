@@ -18,7 +18,7 @@ src/gz fdi_base http://felexindo.mooo.com:81/packages/mips_24kc/base
 <li>ramips</li>
 <pre>
 nano /etc/opkg/customfeeds.conf
-src/gz fdi_base http://felexindo.mooo.com:81/packages/ramips/base
+src/gz fdi_base http://felexindo.mooo.com:81/packages/mipsel_24kc/base
 -opkg update
 -opkg install --force-depends fdio
 </pre>

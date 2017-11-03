@@ -26,7 +26,11 @@ src/gz fdi_base http://felexindo.mooo.com:81/packages/ramips/base
 <strong>test run</strong>
 <ul>
 <li>config</li>
+<pre>
 $fdi_gpio setup
+</pre>
 <li>check</li>
+<pre>
 $fdi_gpio json
+</pre>
 </ul>

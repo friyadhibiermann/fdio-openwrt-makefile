@@ -23,3 +23,10 @@ src/gz fdi_base http://felexindo.mooo.com:81/packages/ramips/base
 -opkg install --force-depends fdio
 </pre>
 </ul>
+<strong>test run</strong>
+<ul>
+<li>config</li>
+$fdi_gpio setup
+<li>check</li>
+$fdi_gpio json
+</ul>

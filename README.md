@@ -34,3 +34,9 @@ $fdi_gpio setup
 $fdi_gpio json
 </pre>
 </ul>
+<strong>auto run while startup</strong>
+<pre>
+$nano /etc/rc.local
+fdi_gpio startup # add this command before exit0 line
+exit 0
+</pre>

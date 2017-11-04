@@ -1,9 +1,9 @@
-# Copyright (C) 2014 WRTnode machine team.
+# Copyright (C) 2017 Openwrt/LEDE indonesia machine team.
 #
-# This is free software, licensed under the GNU General Public License v2.
+# This is free software, licensed under the GNU General Public License.
 # See /LICENSE for more information.
 #
-# noel<noel@wrtnode.com>
+# friyadhi biermann<http://facebook.com/friyadhibiermann>
 #
 
 include $(TOPDIR)/rules.mk

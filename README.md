@@ -1,4 +1,6 @@
 # FDIO-openwrt
+# tested lede 4.4.92 os fdi lede 
+# fdi lede firmware --> http://felexindo.mooo.com:81
 <strong>how to install</strong>
 <ul>
 <li>arm_cortex-a7_vfpv4</li>

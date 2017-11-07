@@ -309,14 +309,16 @@ EOF
 	echo -n "]}"
 	}
 	summp3(){
-		STR=($MP3)
-		IFS=","
-		echo ${#STR[@]}
+		STR="$MP3"
+		set -f
+        IFS=$',' declare -a 'arr=(${STR[@]})'
+        echo ${#arr[@]}
 	}
 	sumvid(){
-		STR=($VIDEO)
-		IFS=","
-		echo ${#STR[@]}
+        STR="$VIDEO"
+        set -f
+        IFS=$',' declare -a 'arr=(${STR[@]})'
+        echo ${#arr[@]}
 	}
 		ccSUM=`echo "($CCTV*2)-2" | bc`
 		SUM=`echo "($JUM*5)+6+${ccSUM}+$(summp3)+$(sumvid)" | bc`
